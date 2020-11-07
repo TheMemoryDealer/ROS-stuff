@@ -1,0 +1,8 @@
+prefix=/home/thememorydealer/catkin_ws/install
+
+Name: workshop1
+Description: Description of workshop1
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

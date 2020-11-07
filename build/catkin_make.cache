@@ -1,2 +1,2 @@
-ros_essentials_cpp
+ros_essentials_cpp:workshop1
 -DCATKIN_DEVEL_PREFIX=/home/thememorydealer/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/thememorydealer/catkin_ws/install -G Unix Makefiles

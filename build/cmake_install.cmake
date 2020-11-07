@@ -132,6 +132,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/thememorydealer/catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/thememorydealer/catkin_ws/build/ros_essentials_cpp/cmake_install.cmake")
+  include("/home/thememorydealer/catkin_ws/build/workshop1/cmake_install.cmake")
 
 endif()
 

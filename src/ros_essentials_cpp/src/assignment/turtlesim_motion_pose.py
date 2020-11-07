@@ -48,7 +48,7 @@ def move(speed, distance):
                     #rospy.Duration(1.0)
                     
                     distance_moved = distance_moved+abs(0.5 * math.sqrt(((x-x0) ** 2) + ((y-y0) ** 2)))
-                    print  distance_moved               
+                    print(distance_moved)               
                     if  not (distance_moved<distance):
                         rospy.loginfo("reached")
                         break
@@ -71,14 +71,14 @@ if __name__ == '__main__':
         position_topic = "/turtle1/pose"
         pose_subscriber = rospy.Subscriber(position_topic, Pose, poseCallback) 
         time.sleep(2)
-        print 'move: '
+        print('move: ')
         move (1.0, 5.0)
         time.sleep(2)
-        print 'start reset: '
+        print('start reset: ')
         rospy.wait_for_service('reset')
         reset_turtle = rospy.ServiceProxy('reset', Empty)
         reset_turtle()
-        print 'end reset: '
+        print('end reset: ')
         rospy.spin()
        
     except rospy.ROSInterruptException:

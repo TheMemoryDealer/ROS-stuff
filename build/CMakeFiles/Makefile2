@@ -2591,6 +2591,24 @@ clean: ros_essentials_cpp/CMakeFiles/_ros_essentials_cpp_generate_messages_check
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory workshop1
+
+# Convenience name for "all" pass in the directory.
+workshop1/all:
+
+.PHONY : workshop1/all
+
+# Convenience name for "clean" pass in the directory.
+workshop1/clean:
+
+.PHONY : workshop1/clean
+
+# Convenience name for "preinstall" pass in the directory.
+workshop1/preinstall:
+
+.PHONY : workshop1/preinstall
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.
