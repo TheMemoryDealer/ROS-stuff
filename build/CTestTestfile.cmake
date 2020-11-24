@@ -7,3 +7,6 @@
 subdirs("gtest")
 subdirs("ros_essentials_cpp")
 subdirs("workshop1")
+subdirs("workshop2")
+subdirs("Robot-Programming-CMP9767M-2021/uol_cmp9767m_base")
+subdirs("Robot-Programming-CMP9767M-2021/uol_cmp9767m_tutorial")

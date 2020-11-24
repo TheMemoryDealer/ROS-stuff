@@ -133,6 +133,9 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/thememorydealer/catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/thememorydealer/catkin_ws/build/ros_essentials_cpp/cmake_install.cmake")
   include("/home/thememorydealer/catkin_ws/build/workshop1/cmake_install.cmake")
+  include("/home/thememorydealer/catkin_ws/build/workshop2/cmake_install.cmake")
+  include("/home/thememorydealer/catkin_ws/build/Robot-Programming-CMP9767M-2021/uol_cmp9767m_base/cmake_install.cmake")
+  include("/home/thememorydealer/catkin_ws/build/Robot-Programming-CMP9767M-2021/uol_cmp9767m_tutorial/cmake_install.cmake")
 
 endif()
 

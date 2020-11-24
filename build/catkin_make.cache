@@ -1,2 +1,2 @@
-ros_essentials_cpp:workshop1
+Robot-Programming-CMP9767M-2021/uol_cmp9767m_base:Robot-Programming-CMP9767M-2021/uol_cmp9767m_tutorial:ros_essentials_cpp:workshop1:workshop2
 -DCATKIN_DEVEL_PREFIX=/home/thememorydealer/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/thememorydealer/catkin_ws/install -G Unix Makefiles
